@@ -8,11 +8,17 @@ let package = Package(
     platforms: [
         .macOS(.v10_14)
     ],
+    products: [
+        .executable(name: "AutorestSwift", targets: ["AutorestSwift"]),
+        .executable(name: "SwiftApiView", targets: ["SwiftApiView"])
+    ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/jpsim/Yams.git", from: "3.0.1"),
-        .package(url: "https://github.com/stencilproject/Stencil.git", .branch("trim_whitespace"))
+        .package(url: "https://github.com/stencilproject/Stencil.git", .branch("trim_whitespace")),
+        // TODO: This is the wrong version of Swift
+        .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .exact("0.50200.0")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -20,6 +26,10 @@ let package = Package(
         .target(
             name: "AutorestSwift",
             dependencies: ["Yams", "Stencil"]
+        ),
+        .target(
+            name: "SwiftApiView",
+            dependencies: ["SwiftSyntax"]
         ),
         .testTarget(
             name: "AutorestSwiftTests",

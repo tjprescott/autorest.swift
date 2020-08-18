@@ -1,9 +1,12 @@
 # Uncomment the next line to define a global platform for your project
 platform :macos, '10.10'
+workspace 'AutorestSwift'
 
 target 'AutorestSwift' do
   # Comment the next line if you don't want to use dynamic frameworks
   # use_frameworks!
+
+  project 'AutorestSwift'
 
   # Pods for AutorestSwift
   pod 'Yams'
@@ -16,5 +19,14 @@ target 'AutorestSwift' do
     # Pods for testing
     pod 'Yams'
   end
-
 end
+
+#target 'SwiftApiView' do
+#  # Comment the next line if you don't want to use dynamic frameworks
+#  # use_frameworks!
+#
+#  project 'SwiftApiView'
+#
+#  # Pods for SwiftApiView
+#  pod 'SwiftSyntax'
+#end

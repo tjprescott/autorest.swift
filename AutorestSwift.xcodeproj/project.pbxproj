@@ -234,7 +234,6 @@
 		F1A5FD8024DCFEE600A5CC6C /* ModelDecoderProperty.stencil in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1A5FD7924DCFECB00A5CC6C /* ModelDecoderProperty.stencil */; };
 		F1A5FD8124DCFEE600A5CC6C /* ModelEncoderDateProperty.stencil in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1A5FD7B24DCFECB00A5CC6C /* ModelEncoderDateProperty.stencil */; };
 		F1A5FD8224DCFEE600A5CC6C /* ModelEncoderProperty.stencil in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1A5FD7C24DCFECB00A5CC6C /* ModelEncoderProperty.stencil */; };
-		OBJ_233 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_244 /* AutorestSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* AutorestSwiftTests.swift */; };
 		OBJ_245 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* XCTestManifests.swift */; };
 /* End PBXBuildFile section */
@@ -390,7 +389,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A22B02C24C88EB000EC018E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A22B02D24C88EB000EC018E /* Package.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Package.resolved; sourceTree = "<group>"; };
 		0A22B03424C8964000EC018E /* LanguageShortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageShortcut.swift; sourceTree = "<group>"; };
 		0A22B03524C8964000EC018E /* FileDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDestination.swift; sourceTree = "<group>"; };
@@ -582,7 +580,6 @@
 		OBJ_57 /* SchemaUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemaUsage.swift; sourceTree = "<group>"; };
 		OBJ_58 /* SealedChoiceSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealedChoiceSchema.swift; sourceTree = "<group>"; };
 		OBJ_59 /* SealedConditionalSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealedConditionalSchema.swift; sourceTree = "<group>"; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_60 /* SerializationFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializationFormat.swift; sourceTree = "<group>"; };
 		OBJ_61 /* StringSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSchema.swift; sourceTree = "<group>"; };
 		OBJ_62 /* TimeSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSchema.swift; sourceTree = "<group>"; };
@@ -927,7 +924,6 @@
 			children = (
 				0AA2B98824E5FD6500CEA1D6 /* package.json */,
 				0A22B09524D09C2900EC018E /* Makefile */,
-				OBJ_6 /* Package.swift */,
 				0A22B02D24C88EB000EC018E /* Package.resolved */,
 				OBJ_7 /* Sources */,
 				OBJ_110 /* Tests */,
@@ -941,7 +937,6 @@
 				OBJ_122 /* LICENSE */,
 				OBJ_124 /* README.md */,
 				OBJ_125 /* CONTRIBUTING.md */,
-				0A22B02C24C88EB000EC018E /* Podfile */,
 				E09E9823B4CA64CA4E9DEB27 /* Pods */,
 				D140A829FDBE9A58B03FF430 /* Frameworks */,
 			);
@@ -1319,7 +1314,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_233 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

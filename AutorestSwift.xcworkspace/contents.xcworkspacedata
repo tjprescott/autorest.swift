@@ -2,7 +2,23 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Package.swift"
+      assignedFileDataType = "public.swift-source">
+   </FileRef>
+   <FileRef
+      location = "group:Package.resolved">
+   </FileRef>
+   <FileRef
+      location = "group:Makefile">
+   </FileRef>
+   <FileRef
+      location = "group:Podfile">
+   </FileRef>
+   <FileRef
       location = "group:AutorestSwift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SwiftApiView.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
